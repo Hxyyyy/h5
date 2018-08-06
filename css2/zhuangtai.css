@@ -1,0 +1,137 @@
+#zhuangtai{
+    /*width: 400px;*/
+    height: 20px;
+    display: flex;
+
+    flex-flow: row;
+    justify-content: space-between;
+    /*justify-content: center;*/
+    align-items: center;
+    background-color:#313131;
+}
+#zhuangtai-left{
+    height: 20px;
+    width: 90px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 2px;
+}
+#zhuangtai-left div{
+    margin-left: 1px;
+}
+#zhuangtai-left-z{
+    font-size: 12px;
+    color: aliceblue;
+    /*margin-bottom: -2px;*/
+}
+#zhuangtai-left-xh{
+    height: 12px;
+    width: 14px;
+    display: flex;
+    align-items: flex-end;
+
+
+}
+#zhuangtai-left-xh div{
+    margin-left: 2px;
+}
+#xh01{
+    height:3px ;
+    width: 3px;
+    background-color: aliceblue;
+}
+#xh02{
+    height:5px ;
+    width: 3px;
+    background-color: aliceblue;
+}
+#xh03{
+    height:7px ;
+    width: 3px;
+    background-color: aliceblue;
+}#xh04{
+     height:9px ;
+     width: 3px;
+     background-color: aliceblue;
+ }
+#zhuangtai-left-4g{
+    font-size: 12px;
+    color: aliceblue;
+}
+#zhuangtai-centre{
+    height: 15px;
+    width: 25px;
+    line-height: 15px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 12px;
+}
+#zhuangtai-right{
+    height: 15px;
+    width: 90px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#dian{
+    font-size: 12px;
+    color: white;
+
+
+}
+#zhuangtai-right-1{
+    height: 11px;
+    width: 22px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 1px black;
+    margin-left: 3px;
+
+}
+#zhuangtai-right-1-n{
+    height: 10px;
+    width: 20px;
+   animation: ch 2s linear infinite;
+    margin-left: 1px;
+
+}
+#zhuangtai-right-2{
+    height:4px;
+    width: 2px;
+    background-color: aliceblue;
+    margin-right: 10px;
+    border-radius: 0px 3px 3px 0px;
+
+}
+@keyframes ch {
+    0%{
+        background-color: crimson;
+        width: 1px;
+    }
+    10%{
+       background-color: crimson;
+        width: 3px;
+    }
+    20%{
+        background-color:crimson;
+        width: 4px;
+    }
+    60%{
+        background-color: greenyellow;
+        width: 10px;
+    }
+    80%{
+        background-color: lawngreen;
+        width: 14px;
+    }
+    100%{
+        background-color: lawngreen;
+        width: 18px;
+    }
+
+
+}

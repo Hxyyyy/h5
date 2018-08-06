@@ -1,0 +1,99 @@
+::-webkit-scrollbar{
+    display: none;
+}
+.friend{
+    width: 100%;
+    display: flex;
+    flex:1;
+    overflow-y: scroll;
+    background-color:lightgrey;
+    /*flex-flow: column;*/
+    display: inline-block;
+
+}
+#friend-dh{
+    height: 200px;
+    width: 100%;
+
+}
+#f1{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    flex-flow: row;
+    border-bottom: .1px solid lightgrey;
+}
+#f2{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    border-bottom: .1px solid lightgrey;
+}
+#f3{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: .1px solid lightgrey;
+}
+#f4{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: flex-start;
+}
+.friend-dh-tx{
+    width: 35px;
+    height: 35px;
+    margin: 6px 0px 6px 15px;
+}
+.friend-dh-hz{
+    width: 100px;
+    height: 35px;
+    margin: 6px 0px 6px 15px;
+    line-height: 35px;
+    text-align: center left;
+}
+.ftx{
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+}
+#friend-real{
+    width: 100%;
+   display: flex;
+    flex: 1;
+    display: inline-block;
+
+}
+.friend-xing{
+    height: 20px;
+    width: 100%;
+    background-color: lightgrey;
+    margin-top: -6px;
+}
+.friend-lxr{
+    height: 50px;
+    display: flex;
+    flex-flow: row;
+    border-bottom: .1px solid lightgrey;
+
+}
+.zimu{
+    height: 100%;
+    width: 20px;
+    font-size: 10px;
+    position: fixed;
+    right: 0px;
+    top: 20%;
+    display: flex;
+    flex-flow: column;
+}
+.zimu div{
+    margin: .3px;
+}
+.backcl{
+    background-color: white;
+}

@@ -1,0 +1,165 @@
+::-webkit-scrollbar{
+    display: none;
+}
+.beijing{
+    width: 100%;
+    display: flex;
+    flex: 1;
+    background-color: white;
+    display: inline-block;
+    overflow-y: scroll;
+}
+#beijing01{
+    width: 100%;
+    height: 200px;
+    /*background-color: lightgrey;*/
+    background-image:url("../img/porsher-panamera-02.jpg") ;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+#touxiang{
+    width: 80px;
+    height: 80px;
+    background-image: url("../img/佩奇.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    box-shadow: 0px 0px 3px white;
+    position: absolute;
+    right: 10px;
+    top: 160px;
+}
+#wangm{
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    right: 96px;
+    bottom: 5px;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+}
+.neirong01{
+    height:147px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    border-bottom: .1px solid gray;
+    background-color: white;
+}
+.neirong01-class{
+    height:187px;
+    /**/
+}
+.xiugai{
+    margin-top: 40px;
+}
+.neirong01-left{
+    height: 100%;
+    width: 70px;
+
+}
+.neirong01-right{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-flow: column;
+    /*background-color: #9c27b0;*/
+
+}
+.neirong-touxiang{
+    width: 55px;
+    height: 55px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 8px 0px 10px;
+    position: relative;
+    top: 5px;
+}
+.neirong-mingzi{
+    height: 20px;
+    width: 100px;
+    /*margin-top: 45px;*/
+    margin: 9px 0px 0px 10px;
+    line-height: 20px;
+    text-align: center left;
+    color: cornflowerblue;
+}
+.neirong-real{
+    height: 20px;
+    width: 305px;
+    line-height: 20px;
+    margin: 10px 0px 0px 10px;
+    /*line-height: 20px;*/
+    /*text-align: center left;*/
+    /*color: cornflowerblue;*/
+}
+.neirong-time_liu{
+    height: 20px;
+    width: 90%;
+    margin: 15px 0px 0px 10px;
+    display: inline-block;
+    display: flex;
+    flex-flow: row;
+    /*background-color: white;*/
+}
+.neirong-time{
+    height: 20px;
+    width: 100px;
+    line-height: 20px;
+    display: inline-block;
+    font-size: 12px;
+    color: gray;
+    font-weight: 200;
+}
+.neirong-liu{
+    height: 13px;
+    width: 40px;
+    background-image: url("../img/留言-fill.svg");
+    background-size: 43%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 70%;
+}
+.neirong-zan{
+    height: 28px;
+    width: 90%;
+    background-color:gainsboro;
+    border-radius: 2px 2px 2px 2px;
+    margin: 15px 0px 0px 10px;
+    display: flex;
+    position: relative;
+    flex-flow: row;
+}
+.neirong-zheng{
+    position: absolute;
+    height: 8px;
+    top: -3px;
+    left: 8px;
+    width: 8px;
+    background-color:gainsboro;
+    transform: rotate(45deg);
+}
+.neirong-zan-tu{
+    height: 20px;
+    width: 20px;
+    background-image: url("../img/赞.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 4px 0px 0px 2px;
+}
+.neirong-zan-zi{
+    height: 20px;
+    width: 250px;
+    margin: 4px 0px 3px 5px;
+    font-size: 12px;
+    color: cornflowerblue;
+    line-height: 20px;
+    text-align: center left;
+}

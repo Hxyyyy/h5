@@ -1,0 +1,48 @@
+::-webkit-scrollbar{
+    display: none;
+}
+.body-me{
+    width: 100%;
+    background-color: lightgrey;
+    display: flex;
+    flex: 1;
+    display: inline-block;
+    overflow-y: scroll;
+}
+#xinxi{
+    background-color: white;
+    width: 100%;
+    height: 90px;
+    justify-content: space-between;
+    display: flex;
+    flex-flow: row;
+
+}
+#xinxi-left{
+    height: 70px;
+    width: 70px;
+    background-image: url("../img/佩奇.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 10px 0px 4px 19px;
+}
+#xinxi-center{
+    display: flex;
+    height: 70px;
+    flex: 1;
+    flex-flow: column;
+    margin:10px 0px 0px 10px;
+}
+#xinxi-right{
+    height: 70px;
+    width: 50px;
+    margin: 10px 5px 0px 0px;
+}
+#erweima{
+    height:20px;
+    width:20px;
+    background-image: url(../img/二维码.svg);
+    background-size: cover;
+    background-position: center;
+    margin: 25px 0px 0px 15px;
+}

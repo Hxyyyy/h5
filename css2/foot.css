@@ -1,0 +1,79 @@
+#foot{
+    height:55px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-flow: row;
+    /*position: fixed;*/
+    bottom: 0px;
+    justify-content: space-around;
+    /*background-color: #9c27b0;*/
+}
+
+#foot-xx{
+    width: 35px;
+    height: 35px;
+    background-image: url("../img/消息 (1).svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+#foot-xx-1{
+    height: 60px;
+    width: 40px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+}
+#foot-xx-2{
+    height: 60px;
+    width: 40px;
+    display: flex;
+    flex-flow: column;
+}
+#foot-xx-3{
+    height: 60px;
+    width: 40px;
+    display: flex;
+    flex-flow: column;
+}
+#foot-xx-4{
+    height: 60px;
+    width: 40px;
+    display: flex;
+    flex-flow: column;
+}
+.foot-xx-2{
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 0px;
+    color: gray;
+}
+#foot-tx{
+    height: 35px;
+    width: 35px;
+    background-image: url("../img/通讯录.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+}
+#foot-fx{
+    height: 35px;
+    width: 35px;
+    background-image: url("../img/发现 (1).svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}#foot-me{
+     height: 35px;
+     width: 35px;background-image: url("../img/我.svg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size:80%;
+
+ }
