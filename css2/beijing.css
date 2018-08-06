@@ -44,7 +44,7 @@
     font-size: 12px;
 }
 .neirong01{
-    height:147px;
+    display:-moz-inline-box;
     width: 100%;
     display: flex;
     flex-flow: row;
@@ -64,10 +64,11 @@
 
 }
 .neirong01-right{
-    height: 100%;
     width: 80%;
-    display: flex;
+    display:-moz-inline-box;
+    /*display: flex;*/
     flex-flow: column;
+    flex: 1;
     /*background-color: #9c27b0;*/
 
 }
@@ -90,7 +91,9 @@
     color: cornflowerblue;
 }
 .neirong-real{
-    height: 20px;
+	display:-moz-inline-box;
+	display:inline-block;
+	word-wrap: break-word;  
     width: 305px;
     line-height: 20px;
     margin: 10px 0px 0px 10px;
@@ -131,10 +134,11 @@
     width: 90%;
     background-color:gainsboro;
     border-radius: 2px 2px 2px 2px;
-    margin: 15px 0px 0px 10px;
+    margin: 15px 0px 5px 10px;
     display: flex;
     position: relative;
     flex-flow: row;
+    
 }
 .neirong-zheng{
     position: absolute;
@@ -162,4 +166,5 @@
     color: cornflowerblue;
     line-height: 20px;
     text-align: center left;
+    display:-moz-inline-box;
 }
